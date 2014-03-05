@@ -51,15 +51,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountReport\camt_052_001_02.cs" />
     <Compile Include="CreditTransfer\pain_001_003_03.cs" />
+    <Compile Include="DebitCreditNotification\camt_054_001_02.cs" />
     <Compile Include="DirectDebit\pain_008_003_02.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SepaXmlService.cs" />
+    <Compile Include="Statement\camt_053_001_02.cs" />
     <Compile Include="StatusReport\pain_002_003_03.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Money.Sepa.snk" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
