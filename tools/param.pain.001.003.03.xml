@@ -1,5 +1,5 @@
-<xsd xmlns='http://microsoft.com/dotnet/tools/xsd/' output='..\src\Money.Sepa\CreditTransfer'>
-  <generateClasses language='CS' namespace='Money.Sepa.CreditTransfer'>
-    <schema>..\sharedfiles\pain.001.003.03.xsd</schema>
+<xsd xmlns='http://microsoft.com/dotnet/tools/xsd/' output='..\src\Money.Unifi'>
+  <generateClasses language='CS' namespace='Money.Unifi.pain_001_003_03'>
+    <schema>..\src\Money.Unifi\Resources\pain.001.003.03.xsd</schema>
   </generateClasses>
 </xsd>
