@@ -1,5 +1,5 @@
-<xsd xmlns='http://microsoft.com/dotnet/tools/xsd/' output='..\src\Money.Sepa\Statement'>
-  <generateClasses language='CS' namespace='Money.Sepa.Statement'>
-    <schema>..\sharedfiles\camt.053.001.02.xsd</schema>
+<xsd xmlns='http://microsoft.com/dotnet/tools/xsd/' output='..\src\Money.Unifi'>
+  <generateClasses language='CS' namespace='Money.Unifi.camt_053_001_02'>
+    <schema>..\src\Money.Unifi\Resources\camt.053.001.02.xsd</schema>
   </generateClasses>
 </xsd>
