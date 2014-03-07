@@ -58,7 +58,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SepaXmlService.cs" />
     <Compile Include="Statement\camt_053_001_02.cs" />
-    <Compile Include="StatusReport\pain_002_003_03.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Money.Sepa.snk" />
