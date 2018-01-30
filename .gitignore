@@ -3,3 +3,8 @@
 ################################################################################
 
 /src/.vs/Money.Unifi/v15
+/src/Money.Unifi/bin/Debug
+/src/Money.Unifi/obj/Debug
+/test/UnitTests/.vs/UnitTests/v15
+/test/UnitTests/Money.Unifi.Tests/bin/Debug
+/test/UnitTests/Money.Unifi.Tests/obj/Debug
