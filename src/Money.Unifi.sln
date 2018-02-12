@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{84B65841-C64C-406A-B850-2D4CE901BECB}"
 	ProjectSection(SolutionItems) = preProject
 		..\License.txt = ..\License.txt
+		Money.Unifi\Money.Unifi.nuspec = Money.Unifi\Money.Unifi.nuspec
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject

@@ -8,3 +8,7 @@
 /test/UnitTests/.vs/UnitTests/v15
 /test/UnitTests/Money.Unifi.Tests/bin/Debug
 /test/UnitTests/Money.Unifi.Tests/obj/Debug
+/src/Money.Unifi/bin/Release
+/src/Money.Unifi/obj/Release
+/src/Money.Unifi/Money.Unifi.1.0.0.nupkg
+/src/Money.Unifi/Money.Unifi.1.0.1.nupkg
