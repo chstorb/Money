@@ -1,27 +1,23 @@
-# Money
+[![Nuget version](https://img.shields.io/nuget/v/Money.Unifi)](https://www.nuget.org/packages/Money.Unify/)
+[![Nuget downloads](https://img.shields.io/nuget/dt/Money.Unifi)](https://www.nuget.org/packages/Money.Unifi/)
+# Money on Github
 
-# Money auf GitHub
+**Money on GitHub** contains C# written, extensible Common Language Runtime class libraries for all .NET programming languages. The project also aims to be extensible, allowing developers to customize and extend the functionality according to their needs.
 
-Money auf GitHub enth&auml;lt in C# geschriebene, erweiterbare Common Language Runtime-Klassenbibliotheken f&uuml;r alle .NET Programmiersprachen. 
+**Money.Unifi** contains serializable class models for **UNIFI (ISO 20022) Payments messages**. This library is used, among other things, in **SEPA payment transactions** for serializing and deserializing **SEPA XML documents**.
 
-# Money.Unifi
+In the context of SEPA payment processing, **Money.Unifi** is employed for the following purposes:
 
-Money.Unifi enth&auml;lt serialisierbare Klassenmodelle der UNIFI (ISO 20022) Payments messages. Anwendung findet diese Bibliothek u.a. im SEPA-Zahlungsverkehr zum Serialisieren und Deserialisieren von SEPA-XML-Dokumenten. 
+1. **SEPA Credit Transfer Initiation (SCT):** Used for SEPA bank-to-customer transfers (pain.001).
 
-## Money.Unifi f&uuml;r den SEPA-Zahlungsverkehr 
+2. **Payment Status Report (Bank to Customer Reject, pain.002):** Provides information on rejected payments.
 
-SEPA-&Uuml;berweisung (SCT: SEPA Credit Transfer Initiation, pain.001) 
-Bank to Customer Reject (Payment Status Report, pain.002) 
-SEPA-Lastschrift (SDD: SEPA Direct Debit Initiation, pain.008)
+3. **SEPA Direct Debit Initiation (SDD):** Used for SEPA direct debit transactions (pain.008).
 
-## Money.Unifi f&uuml;r Kontoauszugsinformationen 
+4. **Account Statement (camt.052):** Provides transaction details for bank-to-customer account reports.
 
-Umsatzaufstellung (Bank to Customer Account Report, camt.052) 
-Kontoauszug (Bank to Customer Statement, camt.053) 
-Sammelbuchungen (Bank to Customer Debit Credit Notification, camt.054)
+5. **Bank to Customer Statement (camt.053):** Represents customer account statements.
 
-# News
+6. **Debit Credit Notification (camt.054):** Covers batched debit and credit notifications.
 
-## NuGet package verf&uuml;gbar.
-
-Money.Unifi ist nun auch als [Money.Unifi NuGet package](https://www.nuget.org/packages/Money.Unifi/) verf&uuml;gbar. Sie k&ouml;nnen Money.Unifi &uuml;ber den Paket-Manager in Visual Studio oder &uuml;ber die Paket-Manager-Konsole installieren.
+Additionally, **Money.Unifi** is available as a [**NuGet package**](https://www.nuget.org/packages/Money.Unifi/), making it easier to integrate into your .NET projects2.
