@@ -21,3 +21,5 @@ In the context of SEPA payment processing, **Money.Unifi** is employed for the f
 6. **Debit Credit Notification (camt.054):** Covers batched debit and credit notifications.
 
 Additionally, **Money.Unifi** is available as a [**NuGet package**](https://www.nuget.org/packages/Money.Unifi/), making it easier to integrate into your .NET projects.
+
+🔗 **Author & Documentation:** https://chstorb.github.io
