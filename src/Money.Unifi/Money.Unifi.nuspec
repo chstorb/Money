@@ -4,14 +4,16 @@
     <id>$id$</id>
     <version>$version$</version>
     <title>$title$</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>
+    <authors>Christian Storb</authors>
+    <owners>Christian Storb</owners>
     <licenseUrl>https://github.com/chstorb/Money/blob/master/License.txt</licenseUrl>
     <projectUrl>https://github.com/chstorb/Money</projectUrl>
+    <repository type="git" url="https://github.com/chstorb/Money" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes></releaseNotes>
-    <copyright>Copyright © STC STORB Consulting 2018</copyright>
-    <tags>.net40 .net45 .net46</tags>
+    <copyright>© 2026 Christian Storb and affiliated companies. All rights reserved.</copyright>
+    <tags>money finance accounting unifi csharp dotnet</tags>
+    <summary>Lightweight .NET library for financial utilities.</summary>
   </metadata>
 </package>
